@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(138, 138, 247);
+    font: normal 14pt arial;
+    text-align: center;
+    color: azure;
+}
+section{
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    color: black;
+    min-height: 300px;
+}
+section > div#img > img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: auto;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+}

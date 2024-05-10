@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificando brasileiros</title>
+</head>
+<body>
+    <h1>Verificar nacionalidade</h1>
+    <h3>Qual sua nacionalidade?</h3>
+    <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="Verificar" onclick="veri()">
+    <div id="result"></div>
+    <script>
+        var país = window.document.querySelector("input#txtnac")
+        var result = window.document.querySelector("div#result")
+        function veri(){
+            if (país = 'Brasil'){
+                result.innerHTML = `<strong>Você é Brasileiro!</strong>`
+            } else{
+                result.innerHTML = ` <strong>Você é estrangeiro!</strong>`
+            }
+        }
+    </script>
+</body>
+</html>

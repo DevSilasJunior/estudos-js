@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(138, 138, 247);
+    font: normal 14pt arial;
+    text-align: center;
+    color: azure;
+}
+section{
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    color: black;
+    min-height: 300px;
+    max-height: 600px;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+}
+div#list{
+    text-align: left;
+}

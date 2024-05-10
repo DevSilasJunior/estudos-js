@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analise de idade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="ano" id="ano" min="0">
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="M">
+                <label for="M">Masculino</label>
+                <input type="radio" name="radsex" id="F">
+                <label for="F">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="result">
+            Prencha os dados acima para observar o resultado! <br>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;DevSilasJunior</p>
+    </footer>
+</body>
+</html>
